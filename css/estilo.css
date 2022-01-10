@@ -1,0 +1,406 @@
+/* TODO: file Indice */
+.centrar {
+    display: flexbox;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .title-indice {
+    font-size: 2rem;
+      font-weight: bold;
+      font-family: "Times New Roman", 'Courier New', Courier, monospace;
+  }
+  
+  .subtitle.indice {
+    font-size: 1.5rem;
+      font-family: "Times New Roman", 'Courier New', Courier, monospace;
+  }
+  
+  .last-title-indice {
+    font-size: 1rem;
+      font-family: "Times New Roman", 'Courier New', Courier, monospace;
+  }
+  
+  .nav-indice li {
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .nav-indice li a {
+    font-size: 1rem;
+      font-family: "Times New Roman", 'Courier New', Courier, monospace;
+    font-style: oblique;
+  }
+  
+  /* TODO: file Pagina Principal */
+  .position {
+      width: 100%;
+      position: sticky;
+      top: 0;
+      background-color: white;
+  }
+  
+  .position-header-img {
+      margin:auto;
+      display:block;
+  }
+  
+  .nav-principal .container-ul {
+      display:flex;
+      border-right:none;
+      border-left:none;
+      border-top: black solid;
+      border-bottom:black solid;
+      justify-content: center;
+      gap:1em;
+      margin-top:20px;
+      margin-bottom: 20px;
+      margin-left:8px;
+      padding-left:10px;
+      padding-top:10px;
+      padding-bottom:10px;
+  }
+  
+  .nav-principal .container-ul li {
+      list-style:none;
+  }
+  
+  .nav-principal .container-ul li a {
+      font-family: "Times New Roman", 'Courier New', Courier, monospace;
+      text-transform: uppercase; 
+      color:black;   
+      text-decoration: none;
+  }
+  
+  .nav-principal .container-ul li a:visited {
+      color:crimson;
+      text-decoration: none;
+  }
+  .nav-principal .container-ul li a:hover {
+      color:#7ABA96;
+      text-decoration: none;
+  }
+  
+  .container-main-aside {
+      display:flex;
+      flex-direction:row-reverse;
+  }
+  
+  .main-principal, .aside-principal {
+      flex-grow:1;
+  }
+  .main-principal {
+      width:75%;
+  }
+  .aside-principal {
+      width:25%;
+  
+  }
+  .container-recetas {
+      display:flex;
+      flex-wrap: wrap;
+      width:90%;
+      height:70%;
+      justify-content:center;
+      align-items: center;
+      padding-top:1rem;
+  }
+  .container-recetas article {
+      display:flex;
+      justify-content:center;
+      align-items: center;
+      width:45%;
+      height:50%;
+      text-align:center;
+      padding-top:1rem;
+  }
+  .container-recetas article p:nth-of-type(1) {
+      border-right:none;
+      border-left:none;
+      border-top: blue solid;
+      border-bottom:blue solid;
+  }
+  .container-recetas article figure {
+      width:100%;
+      height:100%;
+      display:flex;
+      flex-direction:column;
+  }
+  
+  .container-recetas article figure img {
+      height:40%;
+      width:100%;
+  }
+  .container-recetas article figure figcaption {
+      height:50%;
+      width:100%;  
+  }
+  .container-recetas article figure figcaption h3 a {
+      color:black;
+      text-decoration: none;
+  }    
+  .publicidad {
+      color: #8A8070;
+      display: flex;
+      align-content:center;
+      align-items: center;
+      flex-direction: column;
+      text-align:justify;
+      padding-bottom: 1rem;
+      padding-top:1rem;
+      text-align: center; 
+  }
+  .negrita {
+      color:black;
+      font-weight:bold;
+  }
+  .libro {
+      background-color: #eeeeee;
+      text-align: center;
+  }
+  .submit button {
+      display: flex;
+      font-size: 1.1rem;
+      font-weight: bold;
+      padding: 1rem 1.5rem;
+      cursor: pointer;
+      border: 1px solid #7aba96;
+      background-color: #7aba96;
+      border-bottom: #7aba96;
+  }
+  .container-ul-footer {
+      background-color:black;
+      display:flex;
+      justify-content: center;
+      gap:2em;
+      margin-top:20px;
+      margin-bottom: 20px;
+      margin-left:8px;
+      padding-left:10px;
+      padding-top:15px;
+      padding-bottom:15px;
+  }
+  .container-ul-footer a { 
+      color:white;   
+      text-decoration: none;
+      justify-content: center;
+      font-family:"Times New Roman", 'Courier New', Courier, monospace;
+      font-size:20px;
+      text-transform: uppercase;
+      text-align:center;
+      gap:1em;
+  }
+  
+  /* TODO: file Listado */
+  table {
+      margin-left:40px;
+      margin-right:40px;
+  }
+  td,th {
+      padding-top:10px;
+      padding-bottom:10px;
+  }
+  .table h2 {
+      color:black;
+      padding-top:20px;
+      font-style: italic;
+      text-align:center;
+      font-family:"Times New Roman", 'Courier New', Courier, monospace;
+  }
+  .span-listado {
+      color:black;
+      font-weight:bold;
+      font-family:"Times New Roman", 'Courier New', Courier, monospace;
+  }
+  .title-h3 {
+      color:black;
+      font-style:italic;
+      font-family:"Times New Roman", 'Courier New', Courier, monospace;
+  }
+  .paginacion-listado {
+      margin:20px 0;
+  }
+  
+  .paginacion-listado ul {
+      list-style:none;
+      text-align: center;
+  }
+  
+  .paginacion-listado ul li {
+      display:inline-block;
+      margin-right:10px;
+  }
+  
+  .paginacion-listado ul li a {
+      display:block;
+      padding:10px 20px;
+      color:#fff;
+      background:#024959;
+      text-decoration: none;
+  }
+  
+  .paginacion-listado ul li a:hover {
+      background: #7ABA96;
+  }
+  
+  .paginacion-listado ul li :active {
+      background:#037E8C;
+      font-weight:bold;
+  }
+  
+  /* TODO: file Receta */
+  .div-container-receta {
+      display:flex;
+      flex-direction:row-reverse;
+      gap:1em;
+      margin-top:20px;
+      margin-bottom: 20px;
+      margin-left:20px;
+      margin-right:20px;
+  }
+  .span-receta {
+      color:black;
+      font-weight:bold;
+  }
+  .title-receta {
+      color:black;
+      padding-top:22px;
+      font-style: italic;
+      text-align:center;
+  }
+  .subtitle-receta {
+      color:black;
+      padding-top:20px;
+      font-style: italic;
+      text-align:center;
+  }
+  .main-receta {
+      width: 100px;
+      flex-grow:1;
+  }
+  .huevos {
+      text-align:center;
+  }
+  
+  /* TODO: file Contacto */
+  .title-contacto {
+      font-size: 2rem;
+      font-weight: bold;
+      font-family: "Times New Roman", 'Courier New', Courier, monospace;
+      text-align: center;
+      text-transform: uppercase;
+      color:black;
+      margin-top:2rem;
+  }
+  
+  form {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 800px;
+      margin-top:2rem;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 69px;
+      margin-bottom:69px;
+  }
+  
+  .field-contacto {
+      display: flex;
+      flex-direction: column;
+      width: 14rem;
+      margin: 0.5rem 0;
+  }
+  
+  .field-contacto label {
+      font-size: 1rem;
+      margin-bottom: 0.2rem;
+  }
+  
+  .field-contacto input {
+      font-size: 1.1rem;
+      height: 2.2rem;
+      padding-left: 0.5rem;
+      border: 2px solid #696969;
+      border-radius: 5px;
+  }
+  
+  .field-contacto select {
+      font-size: 1.1rem;
+      width: 12rem;
+      height: 2.6rem;
+      padding-left: 0.5rem;
+      border: 2px solid #696969;
+      border-radius: 5px;
+  }
+  
+  .text-box {
+      display: flex;
+      flex-direction: column;
+      width: 25rem;
+      margin: 0.75rem 0;
+  }
+  
+  .textarea {
+      font-size: 1.1rem;
+      max-width: 100%;
+      height: 5rem;
+      max-height: 15rem;
+      padding-top: 0.5rem;
+      padding-left: 0.5rem;
+      border: 2px solid #696969;
+      border-radius: 5px;
+  }
+  
+  .text-box label {
+      font-size: 1rem;
+      margin-bottom: 0.2rem;
+      color:black;
+  }
+  
+  .gustos-contacto {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 20rem;
+      margin: 0.75rem 0;
+  }
+  
+  .gustos-contacto label {
+      font-size: 1rem;
+      margin-bottom: 0.2rem;
+      color:black;
+  }
+  
+  .gustos-contacto div {
+      display: flex;
+      justify-content: flex-start;
+      width: 100%;
+      padding-left: 0.5rem;
+  }
+  
+  .gustos-contacto div input {
+      width: 1rem;
+      height: 1rem;
+  }
+  
+  .submit-contacto {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin-top: 1.75rem;
+  }
+  
+  .submit-contacto button {
+      font-size: 1.1rem;
+      padding: 1rem 1.5rem;
+      cursor: pointer;
+      border: 1px solid#7aba96;
+      border-radius: 4px;
+      background-color: #7aba96;
+  }
+
+
+
